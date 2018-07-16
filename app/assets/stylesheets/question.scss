@@ -1,0 +1,45 @@
+.questionnaire-banner-content {
+  padding-top: 5vh;
+  align-content: center;
+  text-align: center;
+}
+
+.questionnaire-banner-content h2 {
+  color: $myblue;
+  font-family: 'Marck Script', cursive;
+  font-size: 55px;
+  text-align: center;
+}
+
+.questionnaire-banner-content p {
+  color: $mypink;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.questionnaire-banner-answers p{
+  color: $dark-gray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.instructions p {
+  padding-top: 30px;
+  font-family: 'Marck Script', cursive;
+  font-size: 19px;
+  color: $myblue;
+  text-align: center;
+}
+
+
+.questions p {
+  padding-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: $dark-gray;
+  text-align: left;
+}

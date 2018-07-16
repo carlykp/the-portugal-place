@@ -1,0 +1,25 @@
+.sign-up-banner-content {
+  padding-top: 10vh;
+  align-content: center;
+  text-align: left;
+}
+
+.sign-up-banner-content h2 {
+  color: $mypink !important;
+  font-family: 'Marck Script', cursive !important;
+  font-size: 85px;
+  text-align: center;
+}
+
+.sign-up-banner-content p {
+  color: $myblue !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.btn-sign-up {
+  color: $mypink !important;
+  background-color: #myblue !important;
+}

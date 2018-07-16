@@ -1,0 +1,30 @@
+<div class="questionnaire-banner" style="background-image: url(<%=asset_path("rsz_beach.jpg") %>); height: 70vh; width: 100vw;">
+  <div class="questionnaire-banner-content">
+    <h1>The Portugal Place</h1>
+    <p>Let's get start!</p>
+    <p><i class="fas fa-arrow-down"></i></p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="questionnaire-wrapper">
+    <div class="col-sx-12 col-sm-8 col-sm-offset-2 ">
+      <div class="instructions">
+        <p>Answer each of the following questions in order to receive your customized recommendation for your perfect wedding place and useful recommendations to get you started.</p>
+      </div>
+      <div class="questions">
+        <% counter = 1 %>
+        <% @questions.each do |question| %>
+          <p><%= "#{counter}. #{question.q_body}" %></p>
+
+            <% @answers.each do |answer| %>
+            <p><%= "#{answer.a_body}" %></p>
+            <% end %>
+
+          <% counter +1 %>
+          <br>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

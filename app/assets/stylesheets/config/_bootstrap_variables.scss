@@ -22,6 +22,9 @@ $border-radius-base:  2px;
 $border-radius-large: 2px;
 $border-radius-small: 2px;
 
+$link-color: white !important;
+$link-hover-color:      $myblue !important;
+$link-hover-decoration: none !important;
 
 // Patch to make simple_form compatible with bootstrap 3
 .invalid-feedback {
